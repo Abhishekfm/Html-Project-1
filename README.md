@@ -1,6 +1,6 @@
 # HTML Project 1
 
-> This is my first project of HTML and CSS It is a very basic static page but I learned alot
+> This is my first project of HTML and CSS It is a very basic static page but I learned alot.
  #
 ## Project Web page
 
@@ -15,3 +15,4 @@ And I learn alot about position in css.
 #
 
 To see my work visit my [Portfolio]("portfolio-link")
+
