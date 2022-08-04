@@ -19,7 +19,6 @@
     list-style-type: none;
     margin-right: 150px;
     margin-top: 30px;
-
 }
 .linkss{
     flex-grow: 0.4;
@@ -149,4 +148,124 @@
 .star2{
     bottom: 5%;
     left: 40%;
+}
+
+@media screen and (max-width: 1400px) {
+    body{
+        /* background-color: #000000; */
+    }
+    .hero-container-right{
+        margin: 40px 0px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-heading{
+        font-size: 40px;
+        font-family: 'Orbitron';
+    }
+    .hero-description{
+        width: 60%;
+        text-align: center;
+        font-family: 'Poppins';
+        padding: 0px 30px;
+    }
+    .person img{
+        width:400px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px 30px;
+        font-family: 'Orbitron';
+        font-weight: 500;
+        /* background-color: yellowgreen; */
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .linkss{
+        /* flex-grow: 0.4; */
+        /* background-color:blue; */
+    }
+    .star2{
+        left: 530px;
+    }
+}
+@media screen and (max-width:900px) {
+    .hero-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .button-group div .nav-button{
+        padding: 4px 5px;
+    }
+    .navbar-container div:first-child img{
+        width: 80px;
+        padding-top: 20px;
+    }
+    .list-item{
+        font-size: x-small;
+    }
+    .search-icon{
+        display: none;
+    }
+    .square img{
+        width: 340px;
+    }
+    .square{
+        left: 20%;
+        top: 60%;
+    }
+    .navbar-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body{
+        overflow-x: hidden;
+    }
+    .person img{
+        width: 80%;
+    }
+    .square img{
+        /* display: block; */
+        width: 80%;
+    }
+    .square{
+        display: none;
+    }
+    .hero-description{
+        width: 60%;
+        text-align: center;
+        font-family: 'Poppins';
+        padding: 0px 0px;
+    }
+    .navbar-container{
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    .button-group div .nav-button{
+        padding: 2px 3px;
+        font-size: small;
+    }
+    .navbar-container div:first-child img{
+        width: 50px;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+    .list-item{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
