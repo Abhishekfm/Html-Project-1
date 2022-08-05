@@ -151,9 +151,6 @@
 }
 
 @media screen and (max-width: 1400px) {
-    body{
-        /* background-color: #000000; */
-    }
     .hero-container-right{
         margin: 40px 0px 0px 20px;
         display: flex;
@@ -192,10 +189,6 @@
         list-style-type: none;
         margin-right: 0px;
         margin-top: 30px;
-    }
-    .linkss{
-        /* flex-grow: 0.4; */
-        /* background-color:blue; */
     }
     .star2{
         left: 530px;
